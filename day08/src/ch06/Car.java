@@ -68,8 +68,7 @@ public class Car {		// p205~
 		System.out.println(this.name+": GO !!!!! "+b);	// Method¿« Overloading
 	}
 	
-	
-	
+	// toString
 	@Override
 	public String toString() {
 		return "Car [name=" + name + ", color=" + color + ", size=" + size + ", serial=" + serial + "]";
