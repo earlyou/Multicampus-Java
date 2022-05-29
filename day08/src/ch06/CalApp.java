@@ -13,5 +13,4 @@ public class CalApp {
 		double c2sumd = Cal2.sum(10.1, 2.1);	// 메소드의 Overloading
 		System.out.println(c2sumd);
 	}
-
 }
