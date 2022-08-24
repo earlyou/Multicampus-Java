@@ -7,7 +7,7 @@ public class BookApp {
 
 	public static void main(String[] args) {
 		System.out.println("도서관 프로그램을 시작합니다.");
-		OracleDOA oracledao = new OracleDOA();
+		OracleDAO oracledao = new OracleDAO();
 		DAO dao = oracledao;
 		Search search = oracledao;
 		Scanner sc = new Scanner(System.in);
